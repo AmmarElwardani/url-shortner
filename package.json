@@ -1,0 +1,31 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "url shortner",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmmarElwardani/url-shortner.git"
+  },
+  "keywords": [
+    "url-shortner"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmmarElwardani/url-shortner/issues"
+  },
+  "homepage": "https://github.com/AmmarElwardani/url-shortner#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
